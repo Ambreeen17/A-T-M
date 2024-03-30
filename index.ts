@@ -4,7 +4,7 @@ import chalk from "chalk";
 let accountBalance: number = 99999999;
 let accPin: number = 1111;
 console.log(
-  chalk.bold.bgCyanBright.underline("\n\t\t______Welcome To ATM______\n")
+  chalk.bold.blue.underline("\n\t\t______Welcome To ATM______\n")
 );
 const ansPin = await inquirer.prompt({
   name: "pin",
